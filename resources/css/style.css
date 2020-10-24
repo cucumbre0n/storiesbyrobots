@@ -12,6 +12,7 @@ body {
 
 .grid {
   display: grid;
+  grid-template-columns: 1fr 2.5fr 1fr;
 }
 
 /*====== Header ======*/
@@ -31,13 +32,46 @@ header h2 {
 
 }
 
-.n-main nav {
-    display: flex;
+header nav {
+
+}
+
+header nav ul {
+
+}
+
+.n-main ul {
+
+}
+
+.n-main ul li {
+
+}
+
+.n-main li a {
+
+}
+
+.n-main a h3 {
+  
 }
 
 
-
 /*====== Main =======*/
+
+/* Grid */
+
+.c-two {
+
+}
+
+.c-three {
+
+}
+
+.c-four {
+
+}
 
 /* Main Content General Style Rules */
 
