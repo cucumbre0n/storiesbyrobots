@@ -24,14 +24,16 @@ body {
 
 header {
  padding: 0 30%;
+ display: flex;
+ justify-content: center;
 }
 
 header h1 {
-  text-align: center;
+
 }
 
 header h3 {
-  text-align: center;
+
 }
 
 header nav {
@@ -40,8 +42,8 @@ header nav {
 
 .n-main ul {
   display: flex;
-  justify-content: space-evenly;
-  width: 50%;
+  width: 80%;
+  flex-wrap: wrap;
 }
 
 .n-main ul li {
