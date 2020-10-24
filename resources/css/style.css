@@ -8,11 +8,12 @@
 body {
   background-color: black;
   color: white;
+  margin: 0 8%;
 }
 
 .grid {
   display: grid;
-  grid-template-columns: 1fr 2.5fr 1fr;
+  grid-template-columns: 1fr 3fr 1fr;
 }
 
 /*====== Header ======*/
@@ -22,38 +23,38 @@ body {
 }
 
 header {
+ padding: 0 30%;
 }
 
 header h1 {
-
+  text-align: center;
 }
 
-header h2 {
-
+header h3 {
+  text-align: center;
 }
 
 header nav {
 
 }
 
-header nav ul {
-
-}
-
 .n-main ul {
-
+  display: flex;
+  justify-content: space-evenly;
+  width: 50%;
 }
 
 .n-main ul li {
-
+  list-style-type: none;
 }
 
 .n-main li a {
-
+  text-decoration: underline;
+  color: white;
 }
 
 .n-main a h3 {
-  
+
 }
 
 
@@ -72,6 +73,8 @@ header nav ul {
 .c-four {
 
 }
+
+/* Left Side Panel */
 
 /* Main Content General Style Rules */
 
@@ -106,6 +109,8 @@ article p {
 article figure {
 
 }
+
+/* Right Side Panel */
 
 /* Specified Main Content Style Rules */
 
