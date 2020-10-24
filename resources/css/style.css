@@ -21,11 +21,18 @@ body {
 }
 
 header {
+}
+
+header h1 {
 
 }
 
-header nav {
+header h2 {
 
+}
+
+.n-main nav {
+    display: flex;
 }
 
 
@@ -43,6 +50,26 @@ header nav {
 }
 
 .article {
+
+}
+
+.panel {
+
+}
+
+.figure /* (Index figures only) */ {
+
+}
+
+article {
+
+}
+
+article p {
+
+}
+
+article figure {
 
 }
 
