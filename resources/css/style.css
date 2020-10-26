@@ -79,12 +79,6 @@ header nav {
 
 }
 
-.panel {
-  border: 5px solid orange;
-  margin: auto;
-  padding: 0 1%;
-}
-
 /* Left Side Panel */
 
 /* Main Content General Style Rules */
@@ -103,6 +97,8 @@ header nav {
 
 .panel {
 
+  margin: auto;
+  padding: 0 1%;
 }
 
 .figure /* (Index.html figures affected only) */{

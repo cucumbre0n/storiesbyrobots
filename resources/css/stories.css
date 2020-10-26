@@ -1,7 +1,207 @@
-body {
-  background-color: black;
-}
-
 /* -- Put fonts and other similar content,
  such as mobile device
   modifications, under main code -- */
+
+
+/* ===============================
+
+    Copied from main style.css, needs to be
+    tailored to this html page.
+
+  =============================*/
+
+
+/*= Universal Styles ==*/
+
+body {
+  background-color: black;
+  color: white;
+  width: 98%;
+  overflow-x: hidden;
+}
+
+.grid {
+
+}
+
+/*====== Header ======*/
+
+.c-one {
+
+}
+
+header {
+  position: fixed;
+  z-index: 1;
+  left: 5px;
+  right: 5px;
+  margin-top: -25px;
+  padding-top: 0;
+  margin-bottom: 10%;
+  background-color: black;
+  opacity: 1;
+  width: 100%;
+  height: 21%;
+
+}
+
+header h1 {
+  text-align: center;
+}
+
+header h3 {
+  text-align: center;
+}
+
+header nav {
+
+}
+
+.n-main ul {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.n-main ul li {
+  list-style-type: none;
+}
+
+.n-main li a {
+  color: white;
+  text-decoration: underline;
+}
+
+.n-main a h3 {
+
+}
+
+
+/*====== Main =======*/
+
+/* Grid */
+
+.c-two {
+
+}
+
+.c-three {
+
+}
+
+.c-four {
+
+}
+
+.panel {
+
+}
+
+/* Left Side Panel */
+
+/* Main Content General Style Rules */
+
+main {
+  position: relative;
+  top: 200px;
+  width: 98%;
+  overflow-x: hidden;
+  margin: 0 15px;
+  padding: 0 auto;
+}
+
+.container {
+
+}
+
+.story {
+
+}
+
+.article {
+
+}
+
+.panel {
+
+}
+
+.figure /* (Index.html figures affected only) */{
+
+}
+
+.article {
+
+}
+
+.container h3 {
+
+}
+
+.container h3 a {
+
+}
+
+.article p {
+
+}
+
+.story figure {
+
+}
+
+figure img {
+  width: 100%;
+
+}
+
+figure figcaption {
+  text-align: center;
+}
+
+.f-two img {
+
+}
+
+/* Right Side Panel */
+
+/* Specified Main Content Style Rules */
+
+.stories {
+  margin: 0 13%;
+  padding-bottom: 2%;
+}
+
+.stories h2 {
+  text-indent: 150px;
+}
+
+.stories h3 {
+  text-indent: 150px;
+  padding-bottom: 2%;
+}
+
+.stories p {
+  text-indent: 50px;
+}
+
+hr {
+  margin: auto;
+}
+
+.a-one {
+
+}
+
+.a-two {
+
+}
+
+/* (etc., etc.) */
+
+/*=======================*/
+
+/*===== Footer =====*/
+
+/*= Font Families =*/
+
+/*== Media modifications ==*/
