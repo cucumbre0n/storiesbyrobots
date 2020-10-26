@@ -2,29 +2,34 @@
 
 body {
   width: 100%;
-  background: black;
+  background-color: hsla(265, 0%, 27%, 0.65);
   color: white;
   overflow-x: hidden;
+  margin: auto;
 }
 
 /*====== Header ======*/
 
 header {
   position: fixed;
-  height: 200px;
+  height: 175px;
   top: -10px;
   padding-top: 10px;
   z-index: 1;
   width: 100%;
   background-color: black;
+  font-family: "Open Sans Condensed";
+  overflow: hidden;
 }
 
 header h1 {
   text-align: center;
+  margin: 30px 0 0 0;
 }
 
 header h3 {
   text-align: center;
+  margin: 0;
 }
 
 header nav {
@@ -54,17 +59,79 @@ header li h3 {
 
 main {
   position: relative;
-  top: 250px;
+  top: 175px;
+  bottom: 25px;
+  margin-left: auto;
+  margin-right: auto
+  margin-bottom: 250px;
+  width: inherit;
+  overflow-x: hidden;
+}
+
+.story-page {
+  width: 100%;
 }
 
 /*===== Article =====*/
 
+article {
+  margin: 0 25%;
+}
 
+article h2 {
+  margin-bottom: 50px;
+  font-family: "Syne Tactile";
+}
+
+article p {
+  text-indent: 25px;
+  font-family: "Syne Mono";
+}
+
+.top {
+  margin-top: 50px;
+  margin-bottom: 0;
+  width: 75%;
+}
+
+.bottom {
+  margin-top: 0;
+  margin-bottom: 50px;
+  width: 75%;
+}
 
 /*====== Media ======*/
 
+figure {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+  margin: 25px 25px;
+}
+
+figure figcaption {
+  width: 75%;
+  font-family: "Syne Tactile";
+}
+
+#c-one {
+ align-self: center;
+ line-height: 3.5;
+ font-style: italic;
+ font-weight: bold;
+}
+
 figure img {
-  width: 50%;
+  height: 500px;
+  border: 1px solid gray;
+}
+
+#c-two {
+  justify-self: center;
+  align-self: center;
+  line-height: 5;
+  font-style: italic;
+  font-weight: bold;
 }
 
 /*=======================*/
@@ -72,11 +139,71 @@ figure img {
 /*===== Footer =====*/
 
 footer {
+  position: relative;
+  top: 50px;
+  bottom: -5px;
+  height: 52px;
+  z-index: 1;
+  background-color: black;
+  width: 100%;
+  margin: auto;
 
+}
+
+footer p {
+  padding-top: 5px;
+  text-align: center;
+  width: 50%;
+  font-family: "Open Sans Condensed";
+  margin: 15% 25% 0 25%;
 }
 
 /*= Font Families =*/
 
+@font-face {
+  font-family: 'Syne Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Syne Mono Regular'), local('SyneMono-Regular'), url(https://fonts.gstatic.com/s/synemono/v1/K2FzfZNHj_FHBmRbFvHDJaqlLSj6ZQ.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Syne Tactile';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Syne Tactile Regular'), local('SyneTactile-Regular'), url(https://fonts.gstatic.com/s/synetactile/v1/11hGGpna2UTQKjMCVzjAPMKR2CEcrPGE8A.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Open Sans Condensed';
+  font-style: italic;
+  font-weight: 300;
+  font-display: swap;
+  src: local('Open Sans Condensed Light Italic'), local('OpenSansCondensed-LightItalic'), url(https://fonts.gstatic.com/s/opensanscondensed/v15/z7NHdQDnbTkabZAIOl9il_O6KJj73e7Fd_-7suD8Rb2V-ggZSw.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Open Sans Condensed';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: local('Open Sans Condensed Light'), local('OpenSansCondensed-Light'), url(https://fonts.gstatic.com/s/opensanscondensed/v15/z7NFdQDnbTkabZAIOl9il_O6KJj73e7Ff1GhDuXMR7eS2Ao.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Open Sans Condensed';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local('Open Sans Condensed Bold'), local('OpenSansCondensed-Bold'), url(https://fonts.gstatic.com/s/opensanscondensed/v15/z7NFdQDnbTkabZAIOl9il_O6KJj73e7Ff0GmDuXMR7eS2Ao.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
 
 
 /*== Media modifications ==*/
