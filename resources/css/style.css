@@ -81,10 +81,8 @@ header nav {
 
 .panel {
   border: 5px solid orange;
-  margin: 0 auto;
-  padding: 0 auto;
-  width: 100%;
-  height: auto;
+  margin: auto;
+  padding: 0 1%;
 }
 
 /* Left Side Panel */
@@ -117,11 +115,15 @@ header nav {
   grid-template-rows: 1fr 1fr;
   grid-auto-flow: dense;
   border: 5px solid orange;
+  height: auto;
+  margin: auto;
+  padding: auto;
 }
 
 .container h3 {
  grid-area: 1 / 1 / 2 / 3;
  padding-top: 25%;
+ padding-left: 5%;
 }
 
 .container h3 a {
