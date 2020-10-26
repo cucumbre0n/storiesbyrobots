@@ -1,0 +1,82 @@
+/*= Universal Styles ==*/
+
+body {
+  width: 100%;
+  background: black;
+  color: white;
+  overflow-x: hidden;
+}
+
+/*====== Header ======*/
+
+header {
+  position: fixed;
+  height: 200px;
+  top: -10px;
+  padding-top: 10px;
+  z-index: 1;
+  width: 100%;
+  background-color: black;
+}
+
+header h1 {
+  text-align: center;
+}
+
+header h3 {
+  text-align: center;
+}
+
+header nav {
+  margin: 0 25%;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+header nav ul li {
+  list-style-type: none;
+}
+
+header li a {
+  color: white;
+  text-decoration: underline;
+}
+
+header li h3 {
+
+}
+
+
+/*====== Main =======*/
+
+main {
+  position: relative;
+  top: 250px;
+}
+
+/*===== Article =====*/
+
+
+
+/*====== Media ======*/
+
+figure img {
+  width: 50%;
+}
+
+/*=======================*/
+
+/*===== Footer =====*/
+
+footer {
+
+}
+
+/*= Font Families =*/
+
+
+
+/*== Media modifications ==*/
