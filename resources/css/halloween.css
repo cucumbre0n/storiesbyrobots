@@ -1,0 +1,66 @@
+/* Universal Styles */
+
+body {
+  background-color: black;
+  color: white;
+  width: 100%;
+}
+
+/* Header */
+
+header {
+  position: fixed;
+  height: 175px;
+  top: -10px;
+  padding-top: 10px;
+  z-index: 1;
+  width: 100%;
+  background-color: black;
+  font-family: "Open Sans Condensed";
+  overflow: hidden;
+}
+
+header h1 {
+  text-align: center;
+  margin: 30px 0 0 0;
+}
+
+header h3 {
+  text-align: center;
+  margin: 0;
+}
+
+header nav {
+  margin: 0 25%;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+header nav ul li {
+  list-style-type: none;
+}
+
+header li a {
+  color: white;
+  text-decoration: underline; 
+}
+
+
+/* Main */
+
+
+
+/* Other Sections */
+
+/*= Article =*/
+
+
+
+/* Footer */
+
+/* Screen Accommodations */
+
+/* Font Families */
