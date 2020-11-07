@@ -61,6 +61,7 @@ main {
   margin-bottom: 10px;
   width: inherit;
   overflow-x: hidden;
+  width: 100%;
 }
 
 /* Other Sections */
